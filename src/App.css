@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.user-table tbody tr:hover {
+  background-color: #dddddd;
+}
+
+.form-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-input {
+  padding: 10px;
+  margin-right: 10px; /* Adjust margin between inputs */
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #f2f2f2; /* Match the background color of the table */
+  color: #333; /* Match the text color of the table */
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #e0e0e0; /* Lighten the background color on hover */
+}
